@@ -1,0 +1,164 @@
+(footprint "L_Toroid_Vertical_D20_W10_P10_Wire1mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "CXT B011307 supplier drawing065-125/65125: vertical20x10mm P10mm wire1mm. Not generic8026. DC-bias qualification pending.")
+	(tags "Inductor toroid vertical CXT 47uH")
+	(property "Reference" "REF**"
+		(at 0 -8 0)
+		(layer "F.SilkS")
+		(uuid "be532287-0e21-4157-968d-2a9e1ef9a991")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Toroid_Vertical_D20_W10_P10_Wire1mm"
+		(at 0 8 0)
+		(layer "F.Fab")
+		(uuid "cb566299-68c3-40ad-97e7-a8584436765e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ee67449-08e0-4f28-ad48-ebc35f489ef6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9f94602-3030-49a7-97cd-8a76746cbcdb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -10.15 -5.15)
+		(end -10.15 5.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30c36148-58dd-4c2f-a7db-2748a79d0da7")
+	)
+	(fp_line
+		(start -10.15 -5.15)
+		(end -1.8 -5.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1eb64373-bc79-420a-81c4-5a2024dba283")
+	)
+	(fp_line
+		(start -10.15 5.15)
+		(end -1.8 5.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ceb4b6f2-06c1-4ccb-ac5a-f965af46cbf5")
+	)
+	(fp_line
+		(start 1.8 -5.15)
+		(end 10.15 -5.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2f94beba-5437-40bc-a9b5-85118ee1df49")
+	)
+	(fp_line
+		(start 1.8 5.15)
+		(end 10.15 5.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ea69c19-638c-443f-b4c6-2dc010217714")
+	)
+	(fp_line
+		(start 10.15 -5.15)
+		(end 10.15 5.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c247f4c-630d-4d35-aefd-f674e2660ae3")
+	)
+	(fp_rect
+		(start -10.5 -7)
+		(end 10.5 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1f15963f-c314-4dd3-bfae-c27b3874df0c")
+	)
+	(fp_rect
+		(start -10 -5)
+		(end 10 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "28af9c79-131f-442a-9d9f-d3484e0c024d")
+	)
+	(pad "1" thru_hole rect
+		(at 0 -5)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7ff1af29-19e1-4ccd-a100-b462f8cd4f5a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d742d698-fd2d-46bd-abbc-5ec6e8b02eb5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/L102_Envelope_D20_T10_H22.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,63 @@
+{
+  "PCB_footprints": 139,
+  "BOM_groups": 42,
+  "BOM_total": 148.0,
+  "BOM_errors": [],
+  "Intentional_exclusions": [
+    "A201",
+    "A401",
+    "A501",
+    "A601",
+    "A701",
+    "D102",
+    "TP101",
+    "TP102",
+    "TP103",
+    "TP104",
+    "TP105",
+    "TP106",
+    "H101",
+    "H102",
+    "H103",
+    "H104"
+  ],
+  "SMD_placements": 81,
+  "Placement_differences": [],
+  "Model_paths": 25,
+  "Missing_models": [],
+  "Custom_footprints": 4,
+  "drill_validation": {
+    "PTH": {
+      "hits": 331,
+      "diameters_mm": [
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.02,
+        1.1,
+        1.2,
+        1.3,
+        1.4,
+        1.6
+      ],
+      "matches_board": true,
+      "max_rounding_delta_mm": 0.0005000000000165983
+    },
+    "NPTH": {
+      "hits": 4,
+      "diameters_mm": [
+        3.0
+      ],
+      "matches_board": true,
+      "max_rounding_delta_mm": 0
+    }
+  },
+  "gerbers_checked": 8,
+  "zip": "D:\\PCB_EMA3071E\\SCARA_PICO2W_V1\\SCARA_PICO2W_V1_GERBER_NC_DRILL_20261022.zip",
+  "zip_files": 11,
+  "pcb_sha256": "1a1b03dffc84b70951ff42b155588547a4ee80efc8b4129dcc749bd84d3155da",
+  "zip_sha256": "ed4e010dfbf5db1961e5c58b77b9721ad82c393cdbc3ace69b7043e24cd0b83e",
+  "export_origin": "absolute; mm; not mirrored",
+  "limitations": "File/ERC/DRC verification only. No physical load, thermal, EMC, regenerative-energy or safety-stop testing."
+}
